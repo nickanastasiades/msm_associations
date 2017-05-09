@@ -25,8 +25,7 @@
         <td><%= movie.year %></td>
         <td><%= movie.duration %></td>
         <td><%= movie.description %></td>
-        <td><%= Director.find_by(:id => movie.director_id).name %> </td>
-
+        <td><%= Director.find_by(:id => movie.director_id) %> </td>
 
 
         <td>
